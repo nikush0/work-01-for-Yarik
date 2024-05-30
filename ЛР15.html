@@ -1,0 +1,213 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ЛР15</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container first">
+        <nav class="main-nav">
+          <a class="logo" href="./ЛР15.html"
+            >my<span class="logo-second-name">self</span></a
+          >
+          <ul class="contacts">
+            <li class="menu-item">
+              <a
+                class="email-tel"
+                href="https://www.facebook.com/profile.php?id=100076165655480"
+                >facebook</a
+              >
+            </li>
+            <li class="menu-item">
+              <a class="email-tel" href="https://rezka.ag/ua/films/drama/787-boycovskiy-klub-1999.html"
+                >Мій улюблений фільм    </a
+              >
+            </li>
+          </ul>
+      </div>
+    </header>
+    <section class="first-section">
+        <h1 class="title">Ласкаво просимо до моєї біографії</h1>
+    </section>
+    <section class="bio-section">
+        <h2 class="team-header">Моя біографія</h2>
+        <div class="biography">
+              <img
+                src="./ME.png"
+                alt="Ярослав Мельник"
+                width="360"
+                height="480"
+              />
+            <div class="biography">
+                <h3>Ярослав Мельник</h3>
+                <p>Програміст</p>
+                <div class="text">
+                    <p>Мені 16 років. Наразі навчаюсь в коледжі на першому курсі, мені дуже подобається, тільки шкода, що дистанційне.
+                        Раніше навчався в Олевській гімназії №1 до 9 класа. Зараз це Олевській ліцей №1.Там я знайшов собі дуже крутих друзів з якими спілкуюсь і досі.
+                        Коли навчався в гімназії паралельно ходив на боротьбу приблизно 5 років до 7 класу. Потім в моєму житті сталася трагедія та через неї я перестав ходити на боротьбу.
+                        Я захворів на сахариний діабет. Це був переломний момент мого життя, але я з цим справляюсь. Коли я захворів, я почав писати вірші, мені це дуже подобається, а ще я прихильник Тараса Шевченка.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="second-section">
+        <div class="container benefits-container">
+        <h2 class="title-second">Мої хобі</h2>
+        <ul class="all-text">
+            <li class="link-text">
+              <div class="icon-box">
+                  <img class="images" src="./man.jpg" alt="Sport">
+              </div>
+              <h3 class="third-header">Займатись спортом</h3>
+              <p class="second-paragraph">
+                Через день займаюсь спортом
+              </p>
+            </li>
+            <li class="link-text">
+              <div class="icon-box">
+                <img class="images" src="./moto.jpg" alt="moto">
+              </div>
+              <h3 class="third-header">Їздити на мотоциклі</h3>
+              <p class="second-paragraph">
+                Майже що дня їзжу на мотоциклі
+              </p>
+            </li>
+            <li class="link-text">
+              <div class="icon-box">
+               <img class="images" src="./book.jpg" alt="book">
+              </div>
+              <h3 class="third-header">Люблю читати книги</h3>
+              <p class="second-paragraph">
+                З дитинства читаю книги
+              </p>
+            </li>
+            <li class="link-text">
+              <div class="icon-box">
+                <img class="images" src="./code.jpg" alt="code">
+              </div>
+              <h3 class="third-header">Програмування</h3>
+              <p class="second-paragraph">
+                Час від часу пишу код. Знаю Python і HTML/CSS
+              </p>
+            </li>
+          </ul>
+        </div>
+    </section>
+  </body>
+</html>
+<style>
+    h1,
+h2,
+h3,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color: #434455
+}
+ul, ol{
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+button{
+    cursor: pointer;
+
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+h1{
+font-family: "Roboto", sans-serif;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 1.12px;
+    color: #FFFFFF;
+    text-align: center;
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+}
+.link-text {
+    width: calc((100% - 72px) / 4);
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+.third-header{
+    color: #2E2F42;
+        font-family: "Roboto", sans-serif;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        margin-bottom: 8px;
+}
+h3{
+    color: #2E2F42;
+        font-family: Roboto;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+}
+
+.all-text{
+    display: flex;
+        justify-content: center;
+        align-self: center;
+        gap: 24px;
+        margin: 0;
+        padding-left: 0;
+        
+}
+.icon-box{
+    height: 200px;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    background: #f4f4fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.images{
+    width: 200px;
+    height: 180px;
+    
+}
+.first-section{
+    background: #2e2f42;
+    background-image: linear-gradient( to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7) ), url(./mt-09.png);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    padding: 188px 0;
+    margin: 0 auto;
+    max-width: 1440px;
+    background-repeat: no-repeat;
+}
+
+</style>
